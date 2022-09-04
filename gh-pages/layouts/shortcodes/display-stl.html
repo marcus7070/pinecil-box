@@ -1,0 +1,13 @@
+<div class="stldisplay" id="stldisplay-{{ .Get "uid" }}" data-src="{{ .Get "file" }}">
+  <span style="float:right;">
+      <label style="margin-left: 40px"> </label>
+      <input type="checkbox" class="c1" name="cntrl"/><label for="c1">orbit</label>
+      <label style="margin-left: 40px"> </label>
+      <input type="radio" class="r1" name="model"/><label for="r1">wire</label>
+      <label style="margin-left: 20px"> </label>
+      <input type="radio" class="r2" name="model"/><label for="r1">shaded</label>
+  </span>
+  <canvas class="glcanvas" width="640" height="480">
+    Your browser doesn't appear to support the <code>&lt;canvas&gt;</code> element.
+  </canvas>
+</div>

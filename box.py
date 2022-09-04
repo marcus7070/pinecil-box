@@ -175,5 +175,9 @@ top_cap = (
     .cutThruAll()
 )
 
-main_body.val().exportStl("body.stl")
-top_cap.val().exportStl("top_cap.stl")
+if __name__ == "__main__":
+    main_body.val().exportStl("body.stl")
+    top_cap.val().exportStl("top_cap.stl")
+elif __name__ == "temp":
+    show_object(main_body)
+    show_object(top_cap.translate((50, 0, 0)))

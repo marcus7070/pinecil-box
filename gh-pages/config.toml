@@ -1,0 +1,9 @@
+# baseURL = 'https://marcus7070.github.io/<pinecil-box>'
+baseURL = 'localhost:1313'
+languageCode = 'en-us'
+title = 'Pinecil box'
+theme = 'hugo-paper'
+
+[params]
+    github = 'marcus7070'
+    name = 'Marcus'
